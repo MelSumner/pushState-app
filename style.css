@@ -1,0 +1,35 @@
+*,
+*:after {
+  box-sizing: border-box;
+}
+*:focus {
+  border: 3px dotted #e04e39;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.2;
+  margin: 0 auto;
+  padding: 0;
+}
+nav {
+  border-bottom: 1px solid navy;
+  display: flex;
+  padding: 0;
+  width: 100%;
+}
+nav > a {
+  background-color: aliceblue;
+  border: 3px solid transparent;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding: 0.8em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+nav > a:hover {
+  background-color: lightblue;
+}
+main {
+  padding: 1em;
+}
